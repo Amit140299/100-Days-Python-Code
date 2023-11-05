@@ -10,4 +10,4 @@ Tip_perecent=float(input('What percentage tip would you like to give?\n'))
 Final_bill=(Total_Bill+((Total_Bill*Tip_perecent)/100))/People
 # 6. Show them the amount per person.
 print('Each person should pay:',Final_bill)
-# 7.Make sure the input curesor shows on new line
+# 7.Make sure the input curesor shows on new lin
