@@ -27,7 +27,7 @@
 # len(states_of_India)
 
 
-# Who will pay the bill
+# # Who will pay the bill
 import random
 
 names=["Amit","Bobby","Chinmay","Klabi","Utkarsha"]
@@ -36,3 +36,11 @@ print(length)
 random_name_index=random.randint(0,length)
 random_name=names[random_name_index]
 print(f"{random_name} will pay the bill")
+
+
+# fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+# vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+ 
+# dirty_dozen = [fruits, vegetables]
+ 
+# print(dirty_dozen[1][1])
