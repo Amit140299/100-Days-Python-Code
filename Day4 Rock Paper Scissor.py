@@ -114,7 +114,7 @@ else:
 if user_input==0:
     if Computer_input==0:
         print("It's a tie")
-    if Computer_input==1:
+    elif Computer_input==1:
         print("You lose")
     else:
         print("You Win!")
@@ -122,7 +122,7 @@ if user_input==0:
 elif user_input==1:
     if Computer_input==0:
         print("You Win!")
-    if Computer_input==1:
+    elif Computer_input==1:
         print("It's a tie")
     else:
         print("You lose")
@@ -130,7 +130,7 @@ elif user_input==1:
 elif user_input==2:
     if Computer_input==0:
         print("You lose")
-    if Computer_input==1:
+    elif Computer_input==1:
         print("You Win!")
     else:
         print("It's a tie")
