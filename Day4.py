@@ -33,7 +33,7 @@ import random
 names=["Amit","Bobby","Chinmay","Klabi","Utkarsha"]
 length=len(names)
 print(length)
-random_name_index=random.randint(0,length)
+random_name_index=random.randint(0,length-1)
 random_name=names[random_name_index]
 print(f"{random_name} will pay the bill")
 
@@ -44,3 +44,9 @@ print(f"{random_name} will pay the bill")
 # dirty_dozen = [fruits, vegetables]
  
 # print(dirty_dozen[1][1])
+
+list1=[" "," "," "]
+list2=[" "," "," "]
+list3=[" "," "," "]
+print("Hiding your treasure! x marks the spot.")
+position=input()
