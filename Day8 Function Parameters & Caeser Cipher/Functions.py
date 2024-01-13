@@ -8,8 +8,15 @@
 #     print(f"How are you doing {name}?")
 #     print(f"Isn't the weather nice today {name}?")
 
-def greet_with(name,location):
-    print(f"Hello {name}.")
-    print(f"How is it like in {location}")
+# def greet_with(name,location):
+#     print(f"Hello {name}.")
+#     print(f"How is it like in {location}")
 
-greet_with("Amit","Mumbai")
+# greet_with(location="Mumbai",name="Amit")
+
+def paint_can_calculator(height,width):
+    area=height*width
+    no_of_cans=area/5
+    print(f"You will need {no_of_cans} of paint.")
+
+paint_can_calculator(5,4)
