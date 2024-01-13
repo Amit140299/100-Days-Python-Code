@@ -14,9 +14,9 @@
 
 # greet_with(location="Mumbai",name="Amit")
 
-def paint_can_calculator(height,width):
+def paint_can_calculator(height,width,coverage):
     area=height*width
-    no_of_cans=area/5
+    no_of_cans=area/coverage
     print(f"You will need {no_of_cans} of paint.")
 
-paint_can_calculator(5,4)
+paint_can_calculator(5,4,5)
