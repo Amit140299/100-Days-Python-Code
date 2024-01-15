@@ -14,9 +14,20 @@
 
 # greet_with(location="Mumbai",name="Amit")
 
-def paint_can_calculator(height,width,coverage):
-    area=height*width
-    no_of_cans=area/coverage
-    print(f"You will need {no_of_cans} of paint.")
+# def paint_can_calculator(height,width,coverage):
+#     area=height*width
+#     no_of_cans=area/coverage
+#     print(f"You will need {no_of_cans} of paint.")
 
-paint_can_calculator(5,4,5)
+# paint_can_calculator(5,4,5)
+
+# Prime Number Checker
+
+def prime_checker(n):
+    for i in range(2,int(n/2)+1):
+        if n%i==0:
+            print(f"{n} is not aprime number")
+    else :
+        print(f"{n} is a prime number")
+
+prime_checker(13)
