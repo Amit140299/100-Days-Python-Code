@@ -28,4 +28,5 @@ while not bidding_finnished:
     elif should_continue=="yes":
         clear()
     else:
+        clear()
         print("Please provide a proper input.")
