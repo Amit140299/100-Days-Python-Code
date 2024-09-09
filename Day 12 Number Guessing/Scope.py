@@ -8,9 +8,10 @@
 
 # Global Scope
 
-xyz=10
-def apple():
-    xyz=2
-    print(xyz)
-print(xyz)
-apple()
+# xyz=10
+# def apple():
+#     xyz=2
+#     print(xyz)
+# print(xyz)
+# apple()
+
