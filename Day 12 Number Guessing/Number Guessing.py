@@ -21,3 +21,15 @@ guess=int(input("Make a Guess: "))
 # Track the number of turns and reduce by 1 if they get it wrong
 
 # Repeat the guessing functionality if they get it wrong
+
+# Keep prompting until the user guesses correctly
+while True:
+    check_answer(guess, answer)
+    if guess == answer:
+        break
+    try:
+        guess = int(input("Try again. Make a Guess: "))
+    except ValueError:
+        print("Please enter a valid integer.")
+        # prompt again without changing the answer
+        continue
